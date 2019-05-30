@@ -85,9 +85,21 @@ nav{               /*Header*/
 	padding: 24pt;
 	
 }
-.navContainer .item {
-	/* border: black solid; */
+.indexNavContainer{
 	display: flex;
+	/* justify-content: space-evenly; */
+	justify-content: flex-start;
+	background-color: black;
+	width: 200px;
+	border: solid;
+}
+
+}
+.navContainer .item {
+	border: black solid; 
+	display: flex;
+	justify-content: space-evenly;
+	
 }
 
 h1 {
@@ -262,4 +274,5 @@ h2 {
 }
 .copyrightStatement {
 	text-align: center;
+	
 }
